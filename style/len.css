@@ -1,0 +1,214 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: auto;
+}
+.clear {
+	clear: both;
+}
+.container img {
+	max-width: 100%;
+}
+.menu {
+	position: fixed;
+	top: 0;
+	height: 90px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 1
+}
+.main_menu > li {
+	list-style-type: none;
+	float: left;
+	width: 20%;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.main_menu a:hover {
+	color: red;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+.menu_left {
+	width: 30%;
+	float: left;
+	height: 100%;
+}
+.menu_right {
+	width: 70%;
+	float: left;
+	height: 100%;
+}
+.menu_left img {
+	max-width: 100%;
+	max-height: 100%;
+
+}
+.hidden {
+	display: none;
+	padding: 10px;
+	background-color: white;
+}
+.list:hover .hidden {
+	display: block;
+}
+.hidden li {
+	list-style-type: none;
+	padding: 5px;
+}
+.container2 {
+	clear: both;
+	/*	height: 500px;*/
+	width: 100%;
+	margin: auto;
+	background-image: url(http://hame.vn/wp-content/themes/makery/images/bg.gif);
+}
+.content {
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 40px;
+}
+.content > a {
+	text-decoration: none;
+	color: black;
+}
+.product {
+	width: 22%;
+	float: left;
+	border: 1px solid #e4d9d9;
+}
+.product img {
+	width: 100%;
+}
+.right {
+	margin-right: 4%;
+}
+.product a {
+	text-decoration: none;
+	color: black;
+}
+.picture {
+	position: relative;
+	overflow: hidden;
+}
+.hover {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+	display: none;
+	animation: example 1s linear;
+}
+.picture:hover .hover {
+	display: block;
+}
+.picture:hover img {
+	transform: scale(1.2);
+	transition: transform 1s linear;
+}
+.hover_icon {
+	font-size: 2em;
+	margin: 15px;
+	position: absolute;
+	bottom: 0;
+}
+@keyframes example {
+	0% {opacity: 0.1}
+	25% {opacity: 0.2}
+	50% {opacity: 0.3}
+	100% {opacity: 0.4}
+}
+.information {
+	line-height: 30px;
+	margin: 10px;
+}
+.content_part {
+	clear: both;
+}
+.part1_images {
+	width: 30%;
+	float: left;
+}
+.part1_images img {
+	width: 100%;
+}
+.content_part > a {
+	text-decoration: none;
+	color: black;
+}
+.content_part h2 {
+	padding-top: 50px;
+}
+.part1_guide > a {
+	color: black;
+	text-decoration: none;
+}
+.part1_guide {
+	padding-left: 20px;
+	float: left;
+	width: 70%;
+}
+.link {
+	color: red;
+}
+.part {
+	clear: both;
+	padding: 10px 0 10px 0;
+}
+.footer {
+	background-color: #27b6f7;
+	width: 100%;
+	color: white;
+}
+.footer_container {
+	max-width: 1000px;
+	margin: auto;
+}
+.footer_content {
+	width: 30%;
+	float: left;
+	margin-top: 5%;
+}
+.address {
+	margin: 5% 5% 0 5%;
+}
+iframe {
+	width: 100%;
+	height: 250px;
+}
+.email input {
+	margin: 5px 0 5px 0;
+	width: 80%;
+}
+.input {
+	padding-bottom: 70px;
+}
+.contact .fab {
+	font-size: 2em;
+	margin: 10px;
+}
+.contact .fas {
+	font-size: 2em;
+	margin: 10px;
+}
+.contact a {
+	text-decoration: none;
+	color: white;
+}
+.contact a:hover {
+	color: red;
+}
+.fa-comment-alt {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	font-size: 2em;
+	color: blue;
+}
