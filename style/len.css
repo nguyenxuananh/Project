@@ -129,6 +129,9 @@ body {
 	line-height: 30px;
 	margin: 10px;
 }
+.information a:hover {
+	color: red;
+}
 .content_part {
 	clear: both;
 }
